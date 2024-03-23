@@ -106,7 +106,9 @@ async def latin_to_cril(message:Message):
 
     await message.answer(result)
 
-
+@dp.message()
+async def hatolik(message:Message):
+    await message.answer(text="Xatolik")
 
 
 @dp.startup()
